@@ -1,0 +1,29 @@
+{
+  "name": "hexo-ai-summary",
+  "version": "1.0.0",
+  "description": "hexo ai摘要插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiannV/hexo-ai-summary.git"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "tianwei",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TiannV/hexo-ai-summary/issues"
+  },
+  "homepage": "https://github.com/TiannV/hexo-ai-summary#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "crypto-js": "^4.2.0",
+    "hexo-front-matter": "^4.2.1",
+    "hexo-fs": "^4.1.3",
+    "html-to-text": "^9.0.5"
+  }
+}
